@@ -511,6 +511,14 @@ p {
 
 /* End About Section */
 
+/* News Section */
+
+#news {
+	padding: 100px 20px;
+}
+
+/* End News Section */
+
 /* contact Section */
 #contact .contact {
 	flex-direction: column;
