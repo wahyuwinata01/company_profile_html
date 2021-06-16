@@ -24,6 +24,7 @@
               <li><a href="#services" data-after="Service">Services</a></li>
               <li><a href="#projects" data-after="Projects">Projects</a></li>
               <li><a href="#about" data-after="About">About</a></li>
+              <li><a href="#pricing" data-after="Pricing">Pricing</a></li>
               <li><a href="#contact" data-after="Contact">Contact</a></li>
             </ul>
           </div>
@@ -70,20 +71,20 @@
         </button>
       </div> -->
       <!-- <div style= margin: auto;"> -->
-        <!-- <div style="position: absolute; top:25%; left: 5%;">
+        <div class="text-white" style="position: absolute; top:25%; left: 5%;">
           <h1 style="font-size: 110px;">RDev</h1>
-          <p style="font-size: 40px;">Make your Company be Powerfull and Next level</p>
-        </div> -->
+          <p class="text-white" style="font-size: 40px;">Make your Company be Powerfull and Next level</p>
+        </div>
       <!-- </div> -->
-      <div class="parallax-window" data-parallax="scroll" data-image-src="./img/img-1.png" id="home"></div>
+      <div class="parallax-window" data-parallax="scroll" data-image-src="./img/freelance-asian-woman-working-home-business-female-working-laptop-using-mobile-phone-drinking-coffee-sitting-table-garden-morning.jpg" id="home"></div>
     </section>
     <!-- End Hero Section  -->
   
     <!-- Service Section -->
-    <section id="services" v-scroll='Scroll'>
+    <section id="services">
       <!-- <button v-scroll='Scroll' style="background-color: red;">asd</button> -->
       <transition name='fade'>
-        <div class="services container" v-if='show'>
+        <div class="services container">
           <div class="service-top">
             <h1 class="section-title">Our Service</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!</p>
@@ -178,12 +179,12 @@
     <!-- End Projects Section -->
   
     <!-- About Section -->
-    <section id="about">
+    <section id="about" style="margin-bottom: 100px !important;">
       <h1 class="section-title">About Us</h1>
       <div class="mx-5">
         <div class="row">
           <div class="col-3">
-            <div class="card" style="width: 30rem;">
+            <div class="card border-0 shadow-lg" style="width: 30rem;">
               <img src="./img/img-2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="card-title">Ricko Caesar Aprilla Tiaka</h2>
@@ -192,7 +193,7 @@
             </div>
           </div>
           <div class="col-3">
-            <div class="card" style="width: 30rem;">
+            <div class="card border-0 shadow-lg" style="width: 30rem;">
               <img src="./img/img-2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="card-title">Ricko Caesar Aprilla Tiaka</h2>
@@ -201,7 +202,7 @@
             </div>
           </div>
           <div class="col-3">
-            <div class="card" style="width: 30rem;">
+            <div class="card border-0 shadow-lg" style="width: 30rem;">
               <img src="./img/img-2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="card-title">Ricko Caesar Aprilla Tiaka</h2>
@@ -210,7 +211,7 @@
             </div>
           </div>
           <div class="col-3">
-            <div class="card" style="width: 30rem;">
+            <div class="card border-0 shadow-lg" style="width: 30rem;">
               <img src="./img/img-2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="card-title">Ricko Caesar Aprilla Tiaka</h2>
@@ -223,9 +224,77 @@
     </section>
     <!-- End About Section -->
   
+    <h1 class="section-title text-dark mt-5" id="pricing">Pricing</h1>
+    <section class='pricing my-5 bg-light'>
+      <div class="row m-5 p-5">
+        <div class="col-6">
+          <div class="card m-5 border-0 shadow-lg">
+            <div class="card-body text-center p-5">
+              <div class="h1 fw-bold" style="font-size:30px;">Senior</div>
+              <div class="h2" style="font-size:40px;">$<b style="font-size: 50px;">149</b><span class="text-secondary" style="font-size: 30px;"> /month</span></div>
+              <!-- <div class="bg-light">
+                dasd
+              </div> -->
+            </div>
+            <div class="card-body bg-light text-center py-5">
+              <div>
+                <i class="fas fa-check text-success" style="font-size: 20px;"></i><span class="fs-3 m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+              </div>
+              <div>
+                <i class="fas fa-check text-success" style="font-size: 20px;"></i><span class="fs-3 m-4">Lorem ipsum dolor sit  adipisicing elit.</span>
+              </div>
+              <div>
+                <i class="fas fa-check text-success" style="font-size: 20px;"></i><span class="fs-3 m-4">Lorem ipsum sit amet consectetur adipisicing elit.</span>
+              </div>
+              <div>
+                <i class="fas fa-check text-success" style="font-size: 20px;"></i><span class="fs-3 m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+              </div>
+              <div>
+                <i class="fas fa-check text-success" style="font-size: 20px;"></i><span class="fs-3 m-4">Lorem ipsum dolor sit amet consectetur .</span>
+              </div>
+              <div class="mt-5 px-5">
+                <button class="btn btn-primary text-white fs-1 shadow-lg" style="width: 100%;"> Start your trail </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card m-5 border-0 shadow-lg">
+            <div class="card-body text-center p-5">
+              <div class="h1 fw-bold" style="font-size:30px;">Junior</div>
+              <div class="h2" style="font-size:40px;">$<b style="font-size: 50px;">49</b><span class="text-secondary" style="font-size: 30px;"> /month</span></div>
+              <!-- <div class="bg-light">
+                dasd
+              </div> -->
+            </div>
+            <div class="card-body bg-light text-center py-5">
+              <div>
+                <i class="fas fa-times text-danger" style="font-size: 20px;"></i><span class="fs-3 m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+              </div>
+              <div>
+                <i class="fas fa-check text-success" style="font-size: 20px;"></i><span class="fs-3 m-4">Lorem ipsum dolor sit  adipisicing elit.</span>
+              </div>
+              <div>
+                <i class="fas fa-times text-danger" style="font-size: 20px;"></i><span class="fs-3 m-4">Lorem ipsum sit amet consectetur adipisicing elit.</span>
+              </div>
+              <div>
+                <i class="fas fa-times text-danger" style="font-size: 20px;"></i><span class="fs-3 m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+              </div>
+              <div>
+                <i class="fas fa-check text-success" style="font-size: 20px;"></i><span class="fs-3 m-4">Lorem ipsum dolor sit amet consectetur .</span>
+              </div>
+              <div class="mt-5 px-5">
+                <button class="btn btn-secondary text-white fs-1 shadow-lg" style="width: 100%;"> Start your trail </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact">
-      <div class="contact container">
+      <div class="contact">
         <div><h1 class="section-title">Contact info</h1></div>
         <div class="contact-items">
           <div class="contact-item">
@@ -296,7 +365,8 @@
 
 <style>
 .parallax-window {
-  min-height: 600px;
+  height: 600px;
   background: transparent;
+  margin-top: 50px;
 }
 </style>
